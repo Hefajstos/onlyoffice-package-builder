@@ -160,7 +160,7 @@ build_oo_binaries() {
     --depth=1 \
     --recursive \
     --branch ${_GIT_CLONE_BRANCH} \
-    https://github.com/${_UNLIMITED_ORGANIZATION}/build_tools.git \
+    https://github.com/${_UNLIMITED_ORGANIZATION}/onlyoffice-build_tools.git \
     build_tools
   # Ignore detached head warning
   cd build_tools
